@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #BC9F82;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.welcome {
+    background-color: #f0e3ce;
+    padding: 50px;
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 2em;
+}
+
+.purchase-now {
+    background-color: #BC9F82;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.food-menu {
+    padding: 50px;
+    text-align: center;
+}
+
+.food-menu .menu-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+}
